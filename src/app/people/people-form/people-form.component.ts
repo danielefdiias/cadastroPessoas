@@ -42,7 +42,6 @@ export class PeopleFormComponent implements OnInit {
       type: 'date',
       gridXlColumns: 3,
     },
-    
     {
       label: 'Nacionalidade',
       property: 'nationality',
@@ -72,13 +71,13 @@ export class PeopleFormComponent implements OnInit {
       label: 'Nome da Mãe',
       property: 'mother',
       gridXlColumns: 4,
-      icon:'po-icon po-icon-users',
+      icon: 'po-icon po-icon-users',
     },
     {
       label: 'Nome do Pai',
       property: 'father',
       gridXlColumns: 5,
-      icon:'po-icon po-icon-users',
+      icon: 'po-icon po-icon-users',
     },
     {
       property: 'email',
@@ -89,6 +88,26 @@ export class PeopleFormComponent implements OnInit {
     {
       property: 'telefone',
       icon: 'po-icon po-icon-telephone',
+      gridColumns: 4,
+    },
+    {
+      property: 'github',
+      icon: 'po-icon po-icon-telephone',
+      gridColumns: 5,
+    },
+    {
+      property: 'site Pessoal',
+      icon: 'po-icon po-icon-world',
+      gridColumns: 4,
+    },
+    {
+      property: 'instagram',
+      icon: 'po-icon po-icon-social-instagram',
+      gridColumns: 5,
+    },
+    {
+      property: 'twitter',
+      icon: 'po-icon po-icon-social-twitter',
       gridColumns: 4,
     },
     {
@@ -105,7 +124,6 @@ export class PeopleFormComponent implements OnInit {
         { label: 'Espanha', value: 'Espanha' },
       ],
     },
-
     {
       label: 'Estado',
       property: 'state',

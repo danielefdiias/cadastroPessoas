@@ -60,15 +60,37 @@ export class PeopleViewComponent implements OnInit {
       gridXlColumns: 3,
       gridLgColumns: 3,
     },
-
     {
       property: 'email',
       divider: 'Dados de Contato',
       label: 'E-mail',
+      gridXlColumns: 4,
+      gridLgColumns: 4,
+    },
+    {
+      property: 'telefone',
+      label: 'Telefone',
+      gridXlColumns: 2,
+      gridLgColumns: 2,
+    },
+    {
+      property: 'github',
+      label: 'Github',
+      gridXlColumns: 5,
+      gridLgColumns: 5,
+    },
+    {
+      property: 'instagram',
+      label: 'Instagram',
+      gridXlColumns: 4,
+      gridLgColumns: 4,
+    },
+    {
+      property: 'twitter',
+      label: 'Twitter',
       gridXlColumns: 3,
       gridLgColumns: 3,
     },
-
     {
       property: 'country',
       divider: 'Endereço',
