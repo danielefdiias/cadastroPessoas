@@ -23,6 +23,7 @@ export class PeopleFormComponent implements OnInit {
     {
       label: 'Nome',
       property: 'name',
+      icon: 'po-icon po-icon-user',
       divider: 'Dados pessoais',
       gridXlColumns: 6,
     },
@@ -71,17 +72,24 @@ export class PeopleFormComponent implements OnInit {
       label: 'Nome da Mãe',
       property: 'mother',
       gridXlColumns: 4,
+      icon:'po-icon po-icon-users',
     },
     {
       label: 'Nome do Pai',
       property: 'father',
       gridXlColumns: 5,
+      icon:'po-icon po-icon-users',
     },
     {
       property: 'email',
       gridColumns: 5,
       icon: 'po-icon-mail',
       divider: 'Dados para contato',
+    },
+    {
+      property: 'telefone',
+      icon: 'po-icon po-icon-telephone',
+      gridColumns: 4,
     },
     {
       label: 'País',
@@ -123,8 +131,12 @@ export class PeopleFormComponent implements OnInit {
         { label: 'São Paulo', value: 'São Paulo' },
       ],
     },
-    
-    { label: 'Rua', property: 'street', gridColumns: 9  },
+    {
+      property: 'street',
+      label: 'Rua',
+      icon: 'po-icon po-icon-pin',
+      gridColumns: 9,
+    },
   ];
 
   constructor(private activatedRoute: ActivatedRoute) {}
